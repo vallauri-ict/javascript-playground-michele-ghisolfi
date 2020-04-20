@@ -54,7 +54,6 @@ function validaForm() {
         }
         if (_tel.value != "") {
             if ((!(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im.test(_tel.value)))) {
-                alert("sono qui");
                 _tel.classList.add("redBorder");
                 return false;
             } else {
