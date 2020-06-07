@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/torii.png" />
+    <title>WebSite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
+        integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/partials/dark-mode.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- B612 Font -->
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Roboto FOnt -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="site-main">
+        <!--  ======================= Start nav Area =======================  -->
+        <div class="overlayNav">
+            <div id="myNav" class="overlay">
+                <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
+                <div class="overlay-content">
+                    <a href="#">Home</a>
+                    <a href="#about-area">About</a>
+                    <a href="#passioni-area">Passioni</a>
+                    <a href="#skill-area">Skills</a>
+                </div>
+            </div>        
+            <span onclick="openNav()" id="openNav" class="openNav"></span>
+        </div>
+        <!--  ======================= End Nav Area =======================  -->
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section id="banner-area" class="site-banner b">
+            <div class="container b">
+                <div class="row">
+                    <div class="col-lg-11 col-md-12 site-title b my-auto">
+                        <h1 class="title-text text-uppercase b">michele ghisolfi</h1>
+                        <h4 class="title-text b b">I'm: <span id="typed"></span></h4>
+                    </div>
+                </div>
+            </div>
+            <!--  ======================= End Banner Area =======================  -->
+        </section>
+        <!--  ========================= End Banner Area ==========================  -->
+
+        <!--  ========================= Start About Area ==========================  -->
+        <section id="about-area" class="about-area b">
+            <div class="container-fluid b">
+                <div class="row b">
+                    <div class="col-lg-6 col-md-12 b my-auto">
+                        <div class="about-image b">
+                            <img src="images/surr-downloading.png" alt="About us" class="img-fluid b">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title b  my-auto">
+                        <h2 class="text-uppercase pt-5 b">
+                            <span class="title-txt">Let me</span>
+                            <span class="title-txt">introduce</span>
+                            <span class="title-txt">myself</span>
+                        </h2>
+                        <div class="paragraph py-4 b">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 about-col b">
+                                    <ul>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Nome:</strong> Michele </li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Cognome:</strong> Ghisolfi</li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Città:</strong> Ceresole Alba, Cuneo, ITA</li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Scuola:</strong> IIS G.Vallauri Fossano</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 about-col b">
+                                    <ul>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Nascita:</strong> 11 July 2003</li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Età:</strong> 17</li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Mail: </strong>micheleghis@gmail.com</li>
+                                        <li><i class="fas fa-angle-right"></i> <strong>Settore: </strong>Informatica</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--  ========================= End About Area ==========================  -->
+
+        <!--  ========================= Start Passion Area ==========================  -->
+        <section id="passioni-area" class="passion-area b">
+            <div class="container b">
+                <div class="row row-passion-title text-uppercase b">
+                    <div class="passion-title title-txt b"> Passioni </div>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card mb-4">
+                        <img class="card-img-top img-fluid" id="imgDesign" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Design</h4>
+                            <p class="card-text"> "La semplicità portata all'estremo diventa eleganza." diceva Jon Franklin.
+                                Io la penso come lui.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <img class="card-img-top img-fluid" id="imgSport" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Sport</h4>
+                            <p class="card-text">Sono appassionato allo Sport in generale, ma le mie preferenze 
+                                vanno al Judo, allo Sci e alla bici.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-100 d-none d-sm-block d-md-none">
+                        <!-- wrap every 2 on sm-->
+                    </div>
+                    <div class="card mb-4">
+                        <img class="card-img-top img-fluid" id="imgMotori" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Motori</h4>
+                            <p class="card-text">Sono stato avvicinato a questo mondo da piccolo e me ne sono subito appassionato.</p>
+                        </div>
+                    </div>
+                    <div class="w-100 d-none d-md-block d-lg-none">
+                        <!-- wrap every 3 on md-->
+                    </div>
+                    <div class="card mb-4">
+                        <img class="card-img-top img-fluid" id="imgTech" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Technology</h4>
+                            <p class="card-text">Vorrei essere sempre al passo con le ultime tecnologie e rispondere velocemente ai cambiamenti. 
+                                Penso che una delle missioni di un informatico sia proprio questa.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  ========================= End Passion Area ==========================  -->
+
+        <!--  ========================= Start Skill Area ==========================  -->
+        <section id="skill-area" class="skills-area b">
+            <!-- c, c#, js, html, bootstrap, photoshop, inkscape -->
+            <div class="container b">
+                <div class="row b">
+                    <div class="title-txt text-uppercase b"> Skills Set </div>
+                </div>
+
+                <div class="skill-title"> C# </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+                        class="img-fluid progress-icon" />
+                    <div class="progress-bar b" role="progressbar" style="width: 45%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="skill-title b"> C </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/color/48/000000/c-programming.png"
+                        class="img-fluid progress-icon b" />
+                    <div class="progress-bar b" role="progressbar" style="width: 35%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-title b"> HTML </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/color/48/000000/html-5.png" class="img-fluid progress-icon b" />
+                    <div class="progress-bar b" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-title b"> CSS </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" class="img-fluid progress-icon b" />
+                    <div class="progress-bar b" role="progressbar" style="width: 85%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-title b"> JS </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/color/48/000000/javascript.png"
+                        class="img-fluid progress-icon b" />
+                    <div class="progress-bar b" role="progressbar" style="width: 60%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="skill-title b"> PHOTOSHOP </div>
+                <div class="progress b">
+                    <img src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png"
+                        class="img-fluid progress-icon b" />
+                    <div class="progress-bar b" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </section>
+        <!--  ========================= End Skill Area ==========================  -->
+
+        <!--  ========================= Start Skill Area ==========================  -->
+        <section class="contact">
+            <class class="container">
+                <div class="row w-100 justify-content-center">
+                    <a target="blank" href="https://www.instagram.com/?hl=it"><img src="images/contact/instagram-sketched.png" alt="" class="img-fluid instagram contact-img hvr-grow-shadow"></a>
+                    <a target="blank" href="https://t.me/joinchat/AAAAAFD1zukBBUBVxS4W9A"><img src="images/contact/telegram.png" alt="" class="img-fluid telegram contact-img hvr-grow-shadow"></a>
+                    <a target="blank" href="https://www.facebook.com/"><img src="images/contact/facebook.png" alt="" class="img-fluid facebook contact-img hvr-grow-shadow"></a>
+                    <a target="blank" href="mailto:micheleghis@gmail.com"><img src="images/contact/mail.png" alt="" class="img-fluid telegram contact-img hvr-grow-shadow"></a>
+                </div>
+            </class>
+        </section> 
+        <!--  ========================= End Skill Area ==========================  -->
+       
+    </main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- Typing Animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Creativo', 'Minimalista', 'Informatico', 'Spotivo'],
+            startDelay: 1000,
+            typeSpeed: 90,
+            backSpeed: 90,
+            backDelay: 750,
+            loop: true,
+            smartBackspace: true // Default value
+        });
+    </script>
+    <!-- /Typing Animation -->
+
+    <!-- Darm mode animation -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+        var options = {
+            bottom: '50px', // default: '32px'
+            right: '32px', // default: '32px'
+            left: 'unset', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#444',  // default: '#100f2c'
+            buttonColorLight: '#999', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+    <!-- /Dark mode animation -->
+
+    <!-- Nav -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementById("openNav").style.visibility = "hidden";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementById("openNav").style.visibility = "visible";
+        }
+    </script>
+    <!-- /Nav -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

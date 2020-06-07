@@ -1,0 +1,84 @@
+.darkmode--toggle {
+  z-index: 5;
+}
+
+.darkmode--activated {
+  color: #dedad6 !important;
+  /* Start banner area*/
+  /* End banner area*/
+  /* start about area */
+  /* end about area */
+  /* start passioni area */
+  /* end passioni area */
+  /* start skill area */
+  /* end skill area */
+  /* Start contact area */
+  /* End contact area */
+}
+
+.darkmode--activated .site-main {
+  background-color: var(--bg-dark) !important;
+}
+
+.darkmode--activated .openNav {
+  background-image: url(../../images/icons8-menu-24-dark.png);
+  background-repeat: no-repeat;
+}
+
+.darkmode--activated .site-banner .row .site-title h1 {
+  color: white !important;
+}
+
+.darkmode--activated .site-banner .row .site-title h4 #typed, .darkmode--activated .site-banner .row .site-title h4 .typed-cursor {
+  color: #44ebcd !important;
+}
+
+.darkmode--activated .about-area {
+  background-color: var(--bg-dark) !important;
+}
+
+.darkmode--activated .passion-area {
+  background-color: var(--bg-dark) !important;
+}
+
+.darkmode--activated .passion-area .container .passion-title {
+  color: #212529;
+}
+
+.darkmode--activated .passion-area .container .card-deck .card #imgDesign {
+  content: url(../../images/passion/design-black.svg) !important;
+}
+
+.darkmode--activated .passion-area .container .card-deck .card #imgSport {
+  content: url(../../images/passion/judo-black.svg) !important;
+}
+
+.darkmode--activated .passion-area .container .card-deck .card #imgMotori {
+  content: url(../../images/passion/turbo-black.svg) !important;
+}
+
+.darkmode--activated .passion-area .container .card-deck .card #imgTech {
+  content: url(../../images/passion/tech-black.svg) !important;
+}
+
+.darkmode--activated .skills-area {
+  background-color: var(--bg-dark) !important;
+}
+
+.darkmode--activated .skills-area .container .title-txt {
+  color: #212529;
+}
+
+.darkmode--activated .skills-area .container .skill-title {
+  color: #212529;
+}
+
+.darkmode--activated .skills-area .container .progress {
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, var(--bg-dark)), color-stop(30%, #908f8f));
+  background: linear-gradient(90deg, var(--bg-dark) 25%, #908f8f 30%);
+}
+
+.darkmode--activated .contact {
+  background-color: #eee;
+}
+/*# sourceMappingURL=dark-mode.css.map */

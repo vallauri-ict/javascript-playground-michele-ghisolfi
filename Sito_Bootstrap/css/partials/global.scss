@@ -1,0 +1,73 @@
+@import url(variabiles.css);
+
+//  .b{
+//      border: 2px solid lightblue;
+//  }
+
+.title-text{
+    font: normal bold 50px/ 72px var(--font);
+}
+
+.title-txt{
+    font: normal bold 49px/60px var(--font);
+	letter-spacing: 21px;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--font);
+}
+
+.font-font{
+    font-family: var(--font);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--font);
+}
+
+
+
+
+.togg-icon{
+    background-image: url(../../images/icons8-menu-24-light.png) !important;
+}
+
+.togg-icon-dark{
+    background-image: url(../../images/icons8-menu-24-dark.png) !important;
+}
+
+
+.hvr-grow-shadow {
+    opacity: .5;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+      opacity: 1;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }

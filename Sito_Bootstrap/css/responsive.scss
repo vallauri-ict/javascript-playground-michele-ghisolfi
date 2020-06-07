@@ -1,0 +1,67 @@
+/* <=340px */
+@media only screen and (max-width:430px){
+
+    /* Start banner area*/
+	.site-banner {
+        padding-top: 1.5rem !important;
+        .site-title {
+			h1 {
+				font-size: 55px !important;
+			}
+			h4 {
+				font-size: 20px;
+			}
+		}
+	}
+    /* End banner area*/
+    
+    
+}
+
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .about-col{
+        font-size: 1.2rem !important;
+    }
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+	.overlay {
+		a {
+			font-size: 20px;
+		}
+	}
+	.closebtn {
+		font-size: 40px !important;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.passion-title{
+        font-size: 3.6em !important;
+        letter-spacing: 3px !important;
+    }
+}

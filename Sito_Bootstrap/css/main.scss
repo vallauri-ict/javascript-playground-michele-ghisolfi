@@ -1,0 +1,242 @@
+@import url(partials/variabiles.css);
+@import url(partials/global.css);
+
+
+.site-main {
+	height: 120% ;
+    background-color: #ccc;
+	background-image: url(../images/drawing2.svg);
+	background-size: cover;
+
+	/* Start nav area */
+	.overlayNav{
+		.overlay {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			left: 0;
+			top: 0;
+			background-color: rgb(0,0,0);
+			background-color: rgba(0,0,0, 0.9);
+			overflow-x: hidden;
+			transition: 0.5s;
+			a {
+				padding: 8px;
+				text-decoration: none;
+				font-size: 36px;
+				color: #818181;
+				display: block;
+				transition: 0.3s;
+				&:hover {
+					color: #f1f1f1;
+				}
+				&:focus {
+					color: #f1f1f1;
+				}
+			}
+			.closebtn {
+				position: absolute;
+				top: 20px;
+				right: 20px;
+				font-size: 60px !important;
+				display: block;
+				width: 30px;
+				height: 30px;
+			}
+			.overlay-content {
+				position: relative;
+				top: 25%;
+				width: 100%;
+				text-align: center;
+				margin-top: 30px;
+			}
+		}
+		
+		.openNav{
+			position: fixed;
+			z-index: 1;
+			top: 20px;
+			right: 20px;
+			width: 30px;
+			height: 30px;
+			background-image: url(../images/icons8-menu-24-light.png);
+			background-repeat: no-repeat;
+		}		
+	}
+	/* Start nav area */
+
+
+	/* Start banner area*/
+	.site-banner {
+		height: 100%;
+		padding-top: 20%;
+		padding-bottom: 20%;
+		.row{
+			.site-title {
+				h1 {
+					font-size: 6rem;
+					color: #2a0b36;
+					padding-bottom: .2em;
+				}
+				h4 {
+					font-size: 2.2rem;
+					#typed, .typed-cursor{
+						color: var(--primary-color);
+					}
+				}
+			}
+		}
+		
+	}
+	/* End banner area*/
+
+	/* Start about area*/
+	.about-area {
+		background-color: #ccc;/* bg-color */
+		padding: 8rem 5rem;
+		.about-title {
+			h2 {
+				padding-bottom: 2rem;
+				>span {
+					display: block;
+					
+				}
+			}
+			.paragraph {
+				padding-bottom: 0 !important;
+				>p {
+					padding: .4rem 0;
+				}
+				.about-col{
+					font-family: var(--font);
+					font-size: 1.5rem;
+					padding-right: 0;
+					padding-left: 0;
+					ul{
+						padding:0rem 1rem;
+						list-style: none;
+					}
+				}
+			}
+			.btn{
+				a{
+					color: whitesmoke;
+					text-decoration: none;
+					padding: 0;
+					margin: 0;
+				}
+				&:hover{
+					a{
+						color: black;
+					}
+				}
+
+			} 
+			 
+		}
+	}
+	/* End about area*/
+
+	/* Start passion area */
+	.passion-area{
+		background-color: #ccc;/* bg-color */
+		padding-top: 10rem;
+		padding-bottom: 8rem;
+		.container{
+			.row-passion-title{
+				.passion-title{
+					margin: 0 auto;
+					font-family: var(--font);
+					font-size: 4rem;
+					font-weight: bold;
+					letter-spacing: 21px;
+				}
+				padding-bottom: 7rem;
+			}
+			.card-deck{
+				.card{
+					background-color: transparent;
+					border: none;
+					#imgDesign{
+						content: url(../images/passion/design.svg);
+					}
+					#imgSport{
+						content: url(../images/passion/judo.svg);
+					}
+					#imgMotori{
+						content: url(../images/passion/turbo.svg);
+					}
+					#imgTech{
+						content: url(../images/passion/tech.svg);
+					}
+					.card-body{
+						h4{
+							font-size: 2rem;
+						}
+						// p {
+
+						// }
+					}
+				}
+			}
+		}
+	}
+	/* End passion area */
+
+	/* Start skills area */
+	.skills-area{
+		background-color: #ccc;/* bg-color */
+		padding-bottom: 8rem;
+		padding-top: 8rem;
+		.container{
+			.row{
+				.title-txt{
+					margin: 0 auto;
+					padding-bottom: 2.5rem;
+				}
+			}
+			.skill-title{
+				font-family: var(--font);
+				font-weight: bold;
+				font-size: 1.4rem;
+				padding-left: 4rem;
+				padding-bottom: .4rem;
+			}
+			.progress{
+				height: 2.5rem;
+				border-radius: 2rem;
+				margin-bottom: 2rem;
+				border-top-left-radius: 0px;
+				border-bottom-left-radius: 0px;
+				background: linear-gradient(90deg, #ccc 25%, rgb(144, 143, 143) 30%);
+				.progress-icon{
+					width: 3rem;
+					height: 3rem;
+				}
+				.progress-bar{
+					border-radius: 2rem;
+					background: var(--gradient);	
+				}
+			}
+		}
+	}
+	/* End skills area */
+
+	/* Start contact area */
+	.contact{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		background-color: #CCC;
+		.container{
+			.row{
+				.contact-img{
+					width: 3.2em;
+					margin: .4em 1em;
+				}
+			}
+		}
+	}
+	/* End contact area */
+}
+

@@ -1,0 +1,96 @@
+
+.darkmode--toggle{
+    z-index: 5;
+}
+
+.darkmode--activated{
+    
+    color: #dedad6 !important;
+
+    .site-main{
+        background-color: var(--bg-dark) !important;
+    }
+
+    .openNav{
+		background-image: url(../../images/icons8-menu-24-dark.png);
+		background-repeat: no-repeat;
+	}
+
+
+    /* Start banner area*/
+	.site-banner {
+		.row{
+			.site-title {
+				h1 {
+                    color: white !important;
+                }
+                h4{
+                    #typed, .typed-cursor{
+						color: #44ebcd !important;
+					}
+                }
+			}
+		}
+		
+	}
+	/* End banner area*/
+
+    /* start about area */
+    .about-area {
+        background-color: var(--bg-dark) !important;
+	}
+    /* end about area */
+
+    /* start passioni area */
+    .passion-area{
+        background-color: var(--bg-dark) !important;
+        .container{
+            .passion-title{
+                color: #212529;
+            }
+
+            .card-deck{
+                .card{
+                  #imgDesign{
+                    content: url(../../images/passion/design-black.svg) !important;
+                  } 
+                  #imgSport{
+                    content: url(../../images/passion/judo-black.svg) !important;
+                  }
+                  #imgMotori{
+                    content: url(../../images/passion/turbo-black.svg) !important;
+                  }
+                  #imgTech{
+                    content: url(../../images/passion/tech-black.svg) !important;
+                  } 
+                }
+            }
+        }
+    }
+    /* end passioni area */
+
+    /* start skill area */
+    .skills-area{
+        background-color: var(--bg-dark) !important;
+        .container{
+            .title-txt{
+                color: #212529;
+            }
+
+            .skill-title{
+                color: #212529 ;
+            }
+
+            .progress{
+                background: linear-gradient(90deg, var(--bg-dark) 25%, rgb(144, 143, 143) 30%);
+            }
+        }
+    }
+    /* end skill area */
+
+    /* Start contact area */
+	.contact{
+		background-color: #eee;
+	}
+	/* End contact area */
+}
